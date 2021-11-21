@@ -1,0 +1,15 @@
+name: ChatFormatter
+version: '${project.version}'
+main: club.therepo.chatformatter.ChatFormatter
+api-version: 1.13
+prefix: ChatFormatter
+depend: [ Vault ]
+authors: [ Minecraft-Club ]
+description: Format The Chat
+website: https://github.com/Minecraft-Club/ChatFormatter
+
+commands:
+  chatformatter:
+    description: Reload the configuration
+    permission: chatformatter.reload
+    usage: /<command>
